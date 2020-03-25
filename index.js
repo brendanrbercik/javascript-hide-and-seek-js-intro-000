@@ -1,4 +1,4 @@
-function getFirstSelector(selector) {
+ function getFirstSelector(selector) {
   const result = document.querySelector(selector);
   return result;
 }
@@ -21,8 +21,8 @@ function increaseRankBy(n) {
 
     for (let i = 0; i < child.length; i++) {
       var value = parseInt(child[i].innerHTML);
-      value = value + 3;
-      return (`{value}`);
+      newValue = value + 3;
+      return (`{newValue}`);
     }
 
   }
