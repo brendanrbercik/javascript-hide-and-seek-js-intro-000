@@ -21,8 +21,8 @@ function increaseRankBy(n) {
 
     for (let i = 0; i < child.length; i++) {
       var value = (child[i].innerHTML);
-      value = (parseInt(value) + n).toString();
-      return value;
+      value = (parseInt(value) + n);
+      return value.toString();
     }
   }
 }
