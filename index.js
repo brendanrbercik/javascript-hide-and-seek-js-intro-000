@@ -22,7 +22,8 @@ function increaseRankBy(n) {
     for (let i = 0; i < child.length; i++) {
       var value = parseInt(child[i].innerHTML);
       value = value + n;
+      return(`${value}`);
     }
-          return (`{value}`);
+
   }
 }
