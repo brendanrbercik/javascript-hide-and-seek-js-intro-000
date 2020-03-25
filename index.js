@@ -19,7 +19,7 @@ function increaseRankBy(n) {
   for (let i = 0; i < lists.length; i++) {
     const child = lists[i].children;
 
-    for (let i = 0; i < child.length; i++) {
+    for (let l = 0; l < child.length; l++) {
       var value = parseInt(child[i].innerHTML);
       value = value + n;
     }
