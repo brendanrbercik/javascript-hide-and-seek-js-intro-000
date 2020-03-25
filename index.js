@@ -17,11 +17,13 @@ function increaseRankBy(n) {
   const lists = document.querySelectorAll('.ranked-list');
 
   for (let i = 0; i < lists.length; i++) {
-    const child = lists[i].children;
+    lists[i].innerHTML = (i + 3).toString();
 
-    for (let i = 0; i < child.length; i++) {
-      var value = (child[i].innerHTML);
-      value = (parseInt(value) + n).toString();
-    }
+    // const children = lists[i].children;
+    //
+    // for (let i = 0; i < child.length; i++) {
+    //   var value = (child[i].innerHTML);
+    //   value = (parseInt(value) + n).toString();
+    // }
   }
 }
