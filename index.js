@@ -23,6 +23,6 @@ function increaseRankBy(n) {
       var value = parseInt(child[i].innerHTML);
       value = value + n;
     }
-    return(`${value}`);
+    return lists;
   }
 }
